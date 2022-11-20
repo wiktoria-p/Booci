@@ -3,145 +3,7 @@
 <head>
     <title>Struktura Strony</title>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto+Flex:wght@100&display=swap" rel="stylesheet">
-    <style>
-
-        * {
-            box-sizing: border-box;
-            font-family: cinzel;
-        }
-
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        .container {
-            min-height: 100%;
-            position: relative;
-            font-size: 17px;
-            overflow-x: hidden;
-        }
-
-        p {
-            font-size: 25px;
-            font-weight: lighter;
-            text-align: center;
-            margin: 0 auto;
-            padding: 15px;
-        }
-
-        h1 {
-            font-weight: lighter;
-            text-align: center;
-            font-size: 50px;
-            margin: 0 auto;
-        }
-
-        header {
-            width: 100%;
-            background-color: rgba(182, 170, 146, 0.74);
-            padding: 10px;
-            margin: 0 auto;
-            color: black;
-        }
-
-        nav {
-            width: 100%;
-            height: 60px;
-            background-color: beige;
-            margin: 0 auto;
-            color: white;
-            padding-top: 10px;
-        }
-
-        ul {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-        }
-
-        li {
-            margin: 0 auto;
-            list-style: none;
-        }
-
-        a{
-            text-decoration: none;
-            color: black;
-            font-size: 20px;
-        }
-
-        a:hover {
-            font-weight: bolder;
-        }
-
-        #main-content {
-            width: 100%;
-            margin: 0 auto;
-            padding-bottom: 5%;
-        }
-
-        main {
-            width: 100%;
-            padding: 10px;
-            color: black;
-        }
-
-        aside {
-            min-height: auto;
-            width: 100%;
-            padding: 10px;
-            margin: 10px;
-            color: black;
-            text-align: center;
-        }
-
-        section {
-            width: 96%;
-            background-color: rgba(182, 170, 146, 0.74);
-            padding: 10px;
-            margin: 0 auto;
-            color: black;
-        }
-
-        article {
-            width: 96%;
-            height: 90px;
-            background-color: beige;
-            padding: 10px;
-            margin: 10px auto;
-            color: black;
-        }
-
-        img {
-            width: 250px;
-            height: 350px;
-        }
-
-        footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            margin: 0 auto;
-            background-color: rgba(182, 170, 146, 0.74);
-        }
-
-
-        .foot {
-            bottom: 0;
-            color: black;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-        }
-
-        .fi {
-            font-size: 17px;
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -151,36 +13,59 @@
             <nav>
                 <ul>
                     <li><a href="">Nowa Kolekcja</a></li>
-                    <li><a href="">Wyprzedaże</a></li>
                     <li><a href="">Kobieta</a></li>
                     <li><a href="">Mężczyzna</a></li>
                     <li><a href="">Dziecko</a></li>
+                    <li><a href="">Koszyk</a></li>
                 </ul>
             </nav> 
         </header>
+        <div>
+            <ul class="menu woman">
+                <li><a class="link" href="">Torebki</a></li>
+                <li><a class="link" href="">Ubrania</a></li>
+                <li><a class="link" href="">Buty</a></li>
+                <li><a class="link" href="">Akcesoria</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="menu man"> 
+                <li><a href=""></a>Ubrania</li>
+                <li><a href=""></a>Buty</li>
+                <li><a href=""></a>Akcesoria</li>
+                <li><a href=""></a>Torby</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="menu child">
+                <li><a href=""></a>Ubrania</li>
+                <li><a href=""></a>Buty</li>
+                <li><a href=""></a>Akcesoria</li>
+            </ul>
+        </div>
         <div id="main-content">
             <main>
                 <h1>Black Friday</h1>
                 <section>
                     <p>Kupony na Black Friday</p>
                     <article>
-                        <p>-15% na zakupy powyżej 200zł</p>
+                        <a href="">-15% na zakupy powyżej 200zł</a>
                     </article>
                     <article>
-                        <p>-30% na zakupy powyżej 400zł</p>
+                        <a href="">-30% na zakupy powyżej 400zł</a>
                     </article>
                 </section>
             </main>
     
         <div class="">
             <aside>
-                <h1>Kolekcja Ślubna</h1>
-                <img src="img/gal16.jfif" alt="">
-                <img src="img/gal17.jfif" alt="">
-                <img src="img/gal14.jfif" alt="">
-                <img src="img/gal1.jfif" alt="">
-                <img src="img/gal2.jfif" alt="">
-                <img src="img/pg3.start.jfif" alt="">
+                <h1>Nowa Kolekcja</h1>
+                <img src="img/pobierz.jfif" alt="tu powinno być zdjęcie">
+                <img src="img/pobierz.jfif" alt="tu powinno być zdjęcie">
+                <img src="img/pobierz.jfif" alt="tu powinno być zdjęcie">
+                <img src="img/pobierz.jfif" alt="tu powinno być zdjęcie">
+                <img src="img/pobierz.jfif" alt="tu powinno być zdjęcie">
+                <img src="img/pobierz.jfif" alt="tu powinno być zdjęcie">
             </aside>
         </div>    
         </div>    
@@ -188,8 +73,8 @@
             <footer>
                 <div  class="foot">
                     <p class="fi">email: boocci@gmail.com</p>
-                    <p class="fi">numer telefonu: 3485943</p>
-                    <p class="fi">dane do wysyłki</p>
+                    <p class="fi">numer telefonu: 348594398</p>
+                    <p class="fi">Adres</p>
                 </div>
             </footer>
 
