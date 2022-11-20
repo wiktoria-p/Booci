@@ -37,8 +37,9 @@
             flex-direction: row;
             flex-wrap: nowrap;
         }
-        ##### Planned developmentsnof the project
-        -setting responsiveness for mobile devices
-        -creating a funcional menu
-        -creating an online shopping form
+        
+ ##### Planned developmentsnof the project
+ -setting responsiveness for mobile devices
+ -creating a funcional menu
+ -creating an online shopping form        
         
