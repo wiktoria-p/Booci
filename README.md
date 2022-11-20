@@ -8,7 +8,8 @@
 -CSS
 #### Problems and their solutions
 -Footer that didn't want to stay at the bottom of the page
-  html, body {
+  
+        html, body {
             margin: 0;
             padding: 0;
             width: 100%;
